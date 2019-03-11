@@ -38,15 +38,12 @@ public class Main {
         System.out.println(greaterNumber(firstGreater, secondGreater));
 
         System.out.println("Type two words to switch their order");
-
+        scan.nextLine();
         String firstString = scan.nextLine();
+
         String secondString = scan.nextLine();
 
         System.out.println(switchOrder(firstString, secondString));
-
-
-
-
 
 
     }
@@ -87,7 +84,7 @@ public class Main {
     }
     public static String switchOrder(String firstString, String secondString) {
 
-        return secondString + firstString;
+        return secondString + " " + firstString;
 
     }
 }
