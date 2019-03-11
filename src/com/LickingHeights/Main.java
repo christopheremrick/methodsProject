@@ -10,6 +10,8 @@ public class Main {
 
         helloWorld();
 
+        System.out.println("Type in a name");
+
         String inputName = scan.nextLine();
 
         helloName(inputName);
