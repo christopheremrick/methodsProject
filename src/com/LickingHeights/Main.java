@@ -14,7 +14,7 @@ public class Main {
 
         String inputName = scan.nextLine();
 
-        helloName(inputName);
+        System.out.println(helloName(inputName));
 
         System.out.println("Type two numbers to multiply");
 
