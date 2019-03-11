@@ -24,6 +24,11 @@ public class Main {
 
         divide(firstDouble, secondDouble);
 
+        Double firstGreater = scan.nextDouble();
+        Double secondGreater = scan.nextDouble();
+
+        greaterNumber(firstGreater, secondGreater);
+
 
 
 
