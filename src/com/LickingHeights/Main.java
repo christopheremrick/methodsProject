@@ -14,20 +14,28 @@ public class Main {
 
         helloName(inputName);
 
+        System.out.println("Type two numbers to multiply");
+
         Integer firstNumber = scan.nextInt();
         Integer secondNumber = scan.nextInt();
 
         multiply(firstNumber, secondNumber);
+
+        System.out.println("Type two numbers to divide");
 
         Double firstDouble = scan.nextDouble();
         Double secondDouble = scan.nextDouble();
 
         divide(firstDouble, secondDouble);
 
+        System.out.println("Type two numbers to find the greater one");
+
         Double firstGreater = scan.nextDouble();
         Double secondGreater = scan.nextDouble();
 
         greaterNumber(firstGreater, secondGreater);
+
+        System.out.println("Type two words to switch their order");
 
         String firstString = scan.nextLine();
         String secondString = scan.nextLine();
