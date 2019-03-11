@@ -29,6 +29,12 @@ public class Main {
 
         greaterNumber(firstGreater, secondGreater);
 
+        String firstString = scan.nextLine();
+        String secondString = scan.nextLine();
+
+        switchOrder(firstString, secondString);
+
+
 
 
 
@@ -67,6 +73,11 @@ public class Main {
             returnValue = 0.0;
         }
         return returnValue;
+
+    }
+    public static String switchOrder(String firstString, String secondString) {
+
+        return secondString + firstString;
 
     }
 }
