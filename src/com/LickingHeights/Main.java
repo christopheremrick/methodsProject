@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-
-
+        
         Scanner scan = new Scanner(System.in);
 
         helloWorld();
@@ -19,6 +18,13 @@ public class Main {
         Integer secondNumber = scan.nextInt();
 
         multiply(firstNumber, secondNumber);
+
+        Double firstDivision = scan.nextDouble();
+        Double secondDivision = scan.nextDouble();
+
+        divide(firstDivision, secondDivision);
+
+
 
     }
 
@@ -35,5 +41,9 @@ public class Main {
 
 
         return firstNumber * secondNumber;
+    }
+    public static Double divide(Double firstDivision, Double secondDivision) {
+
+        return firstDivision / secondDivision;
     }
 }
