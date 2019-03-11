@@ -19,10 +19,12 @@ public class Main {
 
         multiply(firstNumber, secondNumber);
 
-        Double firstDivision = scan.nextDouble(); // Could reuse firstNumber and secondNumber
-        Double secondDivision = scan.nextDouble();
+        Double firstDouble = scan.nextDouble();
+        Double secondDouble = scan.nextDouble();
 
-        divide(firstDivision, secondDivision);
+        divide(firstDouble, secondDouble);
+
+
 
 
 
@@ -45,5 +47,21 @@ public class Main {
     public static Double divide(Double firstNumber, Double secondNumber) {
 
         return firstNumber / secondNumber;
+    }
+    public static Double greaterNumber(Double firstNumber, Double secondNumber) {
+
+        Double returnValue = 0.0;
+
+        if(firstNumber > secondNumber) {
+            returnValue = firstNumber;
+        }
+        else if(firstNumber < secondNumber) {
+            returnValue = secondNumber;
+        }
+        else {
+            returnValue = 0.0;
+        }
+        return returnValue;
+
     }
 }
