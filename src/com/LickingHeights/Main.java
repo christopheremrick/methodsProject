@@ -6,11 +6,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
-        String inputName = scan.nextLine();
 
+        Scanner scan = new Scanner(System.in);
 
         helloWorld();
+
+        String inputName = scan.nextLine();
+
+        helloName(inputName);
+
+        Integer firstNumber = scan.nextInt();
+        Integer secondNumber = scan.nextInt();
+
+        multiply(firstNumber, secondNumber);
+
     }
 
     public static void helloWorld() {
@@ -21,5 +30,10 @@ public class Main {
     public static String helloName(String input) {
 
         return "Hello " + input;
-}
+    }
+    public static Integer multiply(Integer firstNumber, Integer secondNumber) {
+
+
+        return firstNumber * secondNumber;
+    }
 }
