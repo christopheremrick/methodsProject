@@ -18,4 +18,8 @@ public class Main {
         System.out.println("Hello World!");
 
     }
+    public static String helloName(String input) {
+
+        return "Hello " + input;
+}
 }
