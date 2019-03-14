@@ -77,7 +77,7 @@ public class Main {
             returnValue = secondNumber;
         }
         else {
-            returnValue = 0.0;
+            returnValue = firstNumber;
         }
         return returnValue;
 
